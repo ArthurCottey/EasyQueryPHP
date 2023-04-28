@@ -53,3 +53,7 @@ $objectReturn // Bool - If you want a object return (Not yet stable with FetchAl
 $result = easyQuery($db, $fetch, $select, $from, $where, $limit, $orderby, $objectReturn);
 
 ```
+
+## Know more about how work EasyQuery?
+
+EasyQuery work with a simple PHP function. EasyQuery function take lot of parameter, do his instruction and do a return on your variable.
