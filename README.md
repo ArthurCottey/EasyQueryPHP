@@ -1,6 +1,10 @@
 # EasyQueryPHP
 
-# SELECT Query
+## Understand EasyQuery parameters
+
+
+
+## SELECT Query
 
 ```php
 
