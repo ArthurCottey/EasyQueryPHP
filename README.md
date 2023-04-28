@@ -4,6 +4,14 @@
 
 EasyQuery is not a stable project yet and may still have many bugs. Don't hesitate to report them or even try to fix them to make a push commit.
 
+## Installation
+
+Copy/past the easyquery.php file on your project and do include where your do your request.
+
+```php
+include('easyquery.php');
+```
+
 ## Understand EasyQuery parameters
 
 ```php
