@@ -1,5 +1,9 @@
 # EasyQueryPHP
 
+## ⚠️IMPORTANT TO KNOW
+
+EasyQuery is not a stable project yet and may still have many bugs. Don't hesitate to report them or even try to fix them to make a push commit.
+
 ## Understand EasyQuery parameters
 
 ```php
