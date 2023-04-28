@@ -15,35 +15,35 @@ include('easyquery.php');
 ## Understand EasyQuery parameters
 
 ```php
-$db // Variable - Put variable where your PDO is done
+$db // Variable (Mandatory) - Put variable where your PDO is done
 ```
 
 ```php
-$fetch // String - Put "all" for FetchAll or "one" for Fetch
+$fetch // String (Mandatory) - Put "all" for FetchAll or "one" for Fetch
 ```
 
 ```php
-$select // String - What you want select like "*"
+$select // String (Mandatory) - What you want select like "*"
 ```
 
 ```php
-$from // String - What table you want like "users"
+$from // String (Mandatory) - What table you want like "users"
 ```
 
 ```php
-$where // String - Condition like "id > 1"
+$where // String (Optional -> Put false to don't use) - Condition like "id > 1"
 ```
 
 ```php
-$limit // Int - Maximum number of row you want
+$limit // Int (Optional -> Put false to don't use) - Maximum number of row you want
 ```
 
 ```php
-$orderby // String - Order you want like "
+$orderby // String (Optional -> Put false to don't use) - Order you want like "
 ```
 
 ```php
-$objectReturn // Bool - If you want a object return (Not yet stable with FetchAll)
+$objectReturn // Bool (Optional -> Put false to don't use) - If you want a object return (Not yet stable with FetchAll)
 ```
 
 ## SELECT Query
